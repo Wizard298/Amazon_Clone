@@ -1,0 +1,71 @@
+.main-images-deals{
+    background-color: white;
+    padding: 14px 31px;
+    margin: 11px;
+    /* width: 94%; */
+    width: 90em;
+    overflow: hidden;
+}
+
+/* .main-images-deals::-webkit-scrollbar {
+    display: none;
+} */
+
+.main-images-header{
+    display: flex;
+    align-items: center;
+}
+
+.main-images-heading{
+    margin: 16px 0px;
+}
+
+.main-images-link{
+    margin: 0px 21px;
+}
+
+.main-images-link a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #007185;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.main-images-link a:hover{
+    text-decoration: underline;
+    color: #C7511F;
+}
+
+.main-images{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.main-images::-webkit-scrollbar {
+    display: none;
+    /* width: 12px; */
+}
+  
+/* .main-images::-webkit-scrollbar-track {
+    background: transparent;
+} */
+
+/* .main-images::-webkit-scrollbar-thumb {
+    background-color: rgb(194, 194, 194);
+    border-radius: 20px;
+    border: 3px solid orange;
+} */
+
+/* .main-images::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+} */
+
+.main-images-img{
+    /* background: rgba(15, 17, 17, .03); */
+    padding: 16px;
+    margin-right: 25px;
+}
+
+
+

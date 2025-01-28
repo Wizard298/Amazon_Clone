@@ -1,0 +1,164 @@
+.conti{
+    background-color: #E3E6E6;
+    display: flex;
+    /* background: url(amazon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Text{
+    /* border: 3px solid black; */
+    color: black;
+    width: 325px;
+    background-color: white;
+    height: 380px;
+    margin: 11px;
+    padding: 15px;
+    text-align: left;
+    z-index: 1;
+    /* position: relative;
+    bottom: 355px; */
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.Text h2{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 21px;
+    margin-top: 7px;
+}
+
+.miniimg{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.miniimg img{
+    width: 150px;
+    margin: 6px;
+    margin-top: 20px;
+}
+
+.longimg img{
+    width: 100%;
+    height: auto;
+    margin-top: 19px;
+}
+
+.tui{
+    margin-left: 8px;
+    position: relative;
+    bottom: 9px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+.seem{
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+/* .seem-style1, .seem-style2{
+    margin-top: 36px;
+} */
+
+.seem a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #007185;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 13px;
+}
+.seem a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #C7511F;
+}
+
+.Signin{
+    color: black;
+    width: 319px;
+    background-color: white;
+    height: 130px;
+    margin: 11px;
+    padding: 15px;
+    text-align: left;
+    /* position: relative;
+    bottom: 355px; */
+}
+
+.Signin h2{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 21px;
+    margin-top: 7px;
+}
+
+.submit{
+    padding: 8px;
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 9px;
+    padding-right: 112px;
+    padding-left: 112px;
+    margin-top: 20px;
+    background: #FFD814;
+    border-color: #FCD200;
+    /* font-weight: bold; */
+}
+.submit:hover{
+    padding: 8px;
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 9px;
+    padding-right: 112px;
+    padding-left: 112px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #c5aa20;
+    border-color: #FCD200;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.Text5 img{
+    width: auto;
+    height: 232px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    /* position: relative; */
+    /* bottom: 355px; */
+    margin-left: 45px; 
+}
+
+.NoText{
+    color: black;
+    width: 1460px;
+    background-color: white;
+    height: 250px;
+    margin: 11px;
+    padding: 15px;
+    text-align: left;
+    position: relative;
+    bottom: 355px;
+}
+
+.line{
+    display: flex;
+    display: none;
+}
+
+.dash{
+    background-color: white;
+    border: 1px solid #37475A;
+    width: 21px;
+    height: 4px;
+    display: none;
+} 
