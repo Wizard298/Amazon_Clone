@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+// import React, { useState, useEffect } from "react";
 import '../../css_part/addToCart.css'
-import { Link, useNavigate } from "react-router-dom";
+// import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 function AddToCart(props) {
-    const [define, setDefine] = useState({
-        img: "",
-        name: "",
-        price: ""
-    })
+    // const [define, setDefine] = useState({
+    //     img: "",
+    //     name: "",
+    //     price: ""
+    // })
     
     // To Navigate
     const navigate = useNavigate();
